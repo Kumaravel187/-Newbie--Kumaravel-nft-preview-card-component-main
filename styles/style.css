@@ -1,1 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Outfit&family=Red+Hat+Display&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Outfit&family=Red+Hat+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+body .card {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 375px;
+  padding: 30px;
+}
+body .card .nft {
+  background: url(../images/image-equilibrium.jpg) no-repeat center/cover;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+body .card .nft-name {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+body .card .nft-desc {
+  color: hsl(215, 51%, 70%);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+body .card .container {
+  display: flex;
+  justify-content: space-between;
+}
+body .card .container span {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+body .card .container span .nft-value {
+  color: hsl(178, 100%, 50%);
+}
+body .card .container span .days {
+  color: hsl(215, 51%, 70%);
+}
+body .card .creation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+body .card .creation .avatar {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+body .card .creation .creation-desc {
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 100%);
+}
+body .card .creation .creation-desc .white {
+  color: hsl(215, 32%, 27%);
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
